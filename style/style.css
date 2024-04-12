@@ -14,22 +14,35 @@
     font-size: 25px;
 }
 
-.item_img {
-    width: 150px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-
-}
 
 .item_name {
     font-size: 15px;
 }
 
-p{
+p {
     text-align: center;
 }
 
-img:hover{
+
+.div-pai {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div-pai img {
+    margin: 10px;
+    max-width: 100%;
+}
+
+.div-pai img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+img:hover {
     opacity: 0.5;
+    transform: scale(1.02);
 }
