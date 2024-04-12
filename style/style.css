@@ -10,26 +10,26 @@
 }
 
 .titulo {
-    margin-right: 20px;
+
     font-size: 25px;
 }
 
 .item_img {
     width: 150px;
     height: 180px;
-    display: flex;
     object-fit: cover;
-    margin-left: 10px;
-    margin-top: 15px;
+    border-radius: 10px;
+
 }
 
 .item_name {
     font-size: 15px;
-    
-    margin-right: 30px;
-    margin-top: 10px;
 }
 
-.col:hover {
-    transform: scale(1.02);
+p{
+    text-align: center;
+}
+
+img:hover{
+    opacity: 0.5;
 }
